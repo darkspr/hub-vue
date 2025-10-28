@@ -6,7 +6,7 @@
       <canvas v-else :id="'canvas-' + deviceItem.domain"></canvas>
     </div>
     <div class="device-info">
-      <div class="domain dot">{{deviceItem.domain}}</div>
+      <div class="domain dot">{{deviceItem.comment}}</div>
       <div class="brand dot">{{deviceItem.brand}}</div>
     </div>
   </div>
@@ -236,3 +236,4 @@ onUnmounted(() => {
   }
 }
 </style>
+
